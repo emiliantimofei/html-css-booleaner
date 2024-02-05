@@ -3,6 +3,10 @@ body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
 /*questa è l'intestazione*/
 header{
     background-image: url('../img/pattern.png');
@@ -15,6 +19,7 @@ header{
 .logo{
     width: 150px;
 }
+
 /*ora il main*/
 h1{
     font-weight:900;
@@ -28,11 +33,41 @@ h1{
 #small,.description-photo{
     font-size: 12px;
 }
+table{
+    width: 100%;
+}
 .row-thead{
     background-color: aqua;
 }
 .row-tbody{
     background-color: aquamarine;
 }
+
+/*aside time is up*/
+.imgjpg_1{
+    background-image: url('../img/monitor.jpg');
+    background-size: cover;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    margin: 5px;
+}
+.white{
+    position: absolute;
+    top: 0;
+    left: 10px;
+    color: white;
+    font-weight: 900;
+}
+.imgjpg_2{
+    background-image: url('../img/graph.jpg');
+    background-size: cover;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    margin: 5px;
+}
+
+
 
 
