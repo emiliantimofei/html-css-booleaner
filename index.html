@@ -5,29 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Booleaner</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
     <!--Scheletro pronto all'azione!-->
     <!--Inizio header-->
     <header>
-        <img src="img/logo.svg" alt="Logo Booleaner">
+        <img class="logo" src="img/logo.svg" alt="Logo Booleaner">
     </header>
 
     <!--Inizio main-->
     <main>
-        <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
-        <div>
-            <span>Scritto da <a href="">The Booleaner</a></span><br>
-            <span>il 10/10/2020</span>
-        </div>
-        <div>
-            <img src="img/tim-1.jpg" alt="Picture of Tim">
-            <img src="img/tim-2.jpg" alt="Picture of Tim">
-        </div>
-        <div>
-            <span>1st Photo:John S. and James L. Knight Foundation, by Scott Henrichsen</span><br>
-            <span>2nd Photo: Wikimedia by Paul Clarke</span>
-        </div>
+        <section>
+            <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
+            <div class="container-grey">
+                <span>Scritto da <a id="color" href="">The Booleaner</a></span><br>
+                <span id="small">il 10/10/2020</span>
+            </div>
+            <div>
+                <img src="img/tim-1.jpg" alt="Picture of Tim">
+                <img src="img/tim-2.jpg" alt="Picture of Tim">
+            </div>
+            <div class="description-photo">
+                <span>1st Photo:John S. and James L. Knight Foundation, by Scott Henrichsen</span><br>
+                <span>2nd Photo: Wikimedia by Paul Clarke</span>
+            </div>
+        </section>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime cupiditate deserunt labore mollitia! Fuga, distinctio debitis voluptate ratione repellendus iusto temporibus pariatur natus officiis <mark>ipsum ipsam dolores voluptatibus cupiditate adipisci</mark> aperiam expedita! Nobis ipsa sunt doloribus fugit consequatur nemo perspiciatis officiis incidunt blanditiis, maxime ipsam pariatur in, recusandae quo deleniti animi repellendus rem unde modi voluptatem ut sequi aliquam? Vero eos soluta quia maxime quis voluptatum, earum ea ipsum.
         </p>
@@ -37,15 +42,15 @@
             <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio voluptatibus nihil obcaecati eveniet magnam minima exercitationem voluptatem totam consequatur rerum!</li>
         </ul>
         <table>
-            <thead>
-                <th>
-                    <td>Lorem, ipsum dolor.</td>
-                    <td>Lorem, ipsum dolor.</td>
-                    <td>Lorem, ipsum dolor.</td>
-                </th>
+            <thead class="row-thead">
+                <tr>
+                    <th>Lorem, ipsum dolor.</th>
+                    <th>Lorem, ipsum dolor.</th>
+                    <th>Lorem, ipsum dolor.</th>
+                </tr>
             </thead>
             <tbody> 
-                <tr>
+                <tr class="row-tbody">
                     <td>Lorem, ipsum dolor.</td>
                     <td>Lorem, ipsum dolor.</td>
                     <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut quasi accusamus<br> soluta voluptate modi facere ut ratione reiciendis.<br> Nulla repellat voluptatum nihil quos sint cupiditate!</td>
@@ -55,7 +60,7 @@
                     <td>Lorem, ipsum dolor.</td>
                     <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut quasi accusamus<br> soluta voluptate modi facere ut ratione reiciendis.<br> Nulla repellat voluptatum nihil quos sint cupiditate!</td>
                 </tr>
-                <tr>
+                <tr class="row-tbody">
                     <td>Lorem, ipsum dolor.</td>
                     <td>Lorem, ipsum dolor.</td>
                     <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut quasi accusamus<br> soluta voluptate modi facere ut ratione reiciendis.<br> Nulla repellat voluptatum nihil quos sint cupiditate!</td>

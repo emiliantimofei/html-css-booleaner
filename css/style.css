@@ -1,0 +1,38 @@
+/*body font e margine*/
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/*questa è l'intestazione*/
+header{
+    background-image: url('../img/pattern.png');
+    background-color:dodgerblue;
+    width: 100%;
+    padding: 30px;
+    background-size: contain;
+    background-repeat: repeat;
+}   
+.logo{
+    width: 150px;
+}
+/*ora il main*/
+h1{
+    font-weight:900;
+}
+.container-grey{
+    color: grey;
+}
+#color{
+    color: blue;
+}
+#small,.description-photo{
+    font-size: 12px;
+}
+.row-thead{
+    background-color: aqua;
+}
+.row-tbody{
+    background-color: aquamarine;
+}
+
+
